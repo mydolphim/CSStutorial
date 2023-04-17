@@ -1,0 +1,53 @@
+/*! Animation!  */
+/*? What is animation?  */
+/*? animation is what we use to change from 1st CSS style to 2nd CSS style very smooth!  */
+/** How to make a animation?  */
+/** Just like @import, use @keyframes to start (declare) an animation!  */
+/** Put a animation name after @keyframes  */
+/** Use from(starting of the animation) ~ to(ending of the animation)  */
+
+.shape {
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+@keyframes purple_to_tomato {
+    from {
+        background-color: blueviolet;
+    }
+    50% {
+        background-color: rgb(83, 43, 226);
+    }
+    to {
+        background-color: tomato;
+    }
+}
+
+/** Let's make another animation!  */
+
+@keyframes circle {
+    0% {
+        border-radius: 0;
+    }
+    50% {
+        border-radius: 50%;
+    }
+    100% {
+        border-radius: 0;
+    }
+}
+
+.animation1 {
+    /* animation-name: purple_to_tomato;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+    animation: purple_to_tomato 1.5s infinite;
+    /*? Those 3 lines can be short handed like this!  */
+}
+
+.animation2 {
+    animation: circle 1s infinite;
+}

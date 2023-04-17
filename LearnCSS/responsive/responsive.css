@@ -1,0 +1,30 @@
+/*! responsive!  */
+/** IMPORTANT! PLEASE READ THE UNITS BEFORE DOING THIS LESSON! THAT IS BECAUSE THOSE UNITS ARE VERY IMPORTANT!  */
+/*? 1st part will be viewport!  */
+/*? 2nd part will be @media  */
+/*? What is responsive website?  */
+/** Responsive website is what makes the website look very nice (no crash) in mobile, desktop, i-Pad or anything! */
+
+/*! viewport!  */
+/*? Let's head to HTML for viewport!  */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    background-color: blue;
+    width: 180px;
+    height: 180px;
+}
+
+/*! Let's use vw, vh, vmin, and vmax !  */
+
+.v {
+    background-color: cornflowerblue;
+    width: 50vw;
+    height: 50vh;
+    /*? Use vw and vh!  */
+    /** We don't use a lot of vmin and vmax  */
+}

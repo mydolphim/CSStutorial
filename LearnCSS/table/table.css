@@ -1,0 +1,30 @@
+#movies {
+    border-collapse: collapse;
+    /*? This property is going to make 2 lines into 1 line (collapse them together)  */
+    width: 100%;
+}
+
+#movies td,
+#movies th {
+    border: 1px solid gray;
+    padding: 8px;
+    /** We are going to learn about box model later!  */
+}
+
+#movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(213, 100, 236);
+    color: #ffffffd0;
+}
+
+#movies tr:nth-child(even) {
+    background-color: bisque;
+}
+
+#movies tr:hover {
+/*? :hover is an advanced selector! We are going to learn about this later! */
+/** This selects when a pointer hovers over the element  */
+    background-color: beige;
+}

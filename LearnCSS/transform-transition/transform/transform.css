@@ -1,0 +1,85 @@
+/*! transform  */
+/*? What is transform?  */
+/*? Transform is used to rotate, increase or decrease size, change inclination, and to move elements  */
+/*! NOTE: in order to use transform property, the elements have to be block or inline-block  */
+/*? In order to use transform property, we have to give a function as a value  */
+/** Don't worry because this is not like a function we use in other coding languages  */
+/** EX: 
+div {
+    transform: translateX(20px);
+    /*? This will move the x-axis of an element 20px (to the right)  */
+
+/** Lists of transform functions:
+• translate(tx, ty) - This will move by the values of x and y
+• translateX(tx) - This will only move the x-axis
+• translateY(ty) - This will only move the y-axis
+• scale(sx, sy) - This will make the element bigger or smaller by the values of x and y
+• scaleX(sx) - This will make the element bigger or smaller by it's x-axis
+• scaleY(sy) - This will make the element bigger or smaller by it's y-axis
+• rotate(degree) - This will rotate the element (+clockwise, -counter-clockwise)
+• rotateX(degree) - This will rotate the element based on the x-axis. To make it three dimensional effect, user perspective property to the parent element 
+• rotateY(degree) - This will rotate the element based on the y-axis. To make it three dimensional effect, user perspective property to the parent element 
+• rotateZ(degree) - This will rotate the element based on the z-axis. To make it three dimensional effect, user perspective property to the parent element 
+• skew(ax, ay) - This will distort the element by the values of x and y-axis
+• skewX(ax) - This will distort the element by the value of x-axis
+• skewY(ay) -This will distort the element by the value of y-axis
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.outline,
+.box {
+    width: 60px;
+    height: 60px;
+}
+
+.outline {
+    border: 3px solid yellow;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: blueviolet;
+}
+
+.box1 {
+    /*! Transform  */
+    /* transform: translateX(20px);
+    transform: translateY(-20px);
+    transform: translateZ(1); */
+    transform: translate(20px, -20px); 
+    /*? Put x and y value in here */
+}
+
+.box2 {
+    /*! Scale  */
+    /* transform: scaleX(1.5);  */
+    /* transform: scaleY(1.5); */
+    transform: scale(1.5, 1.5);
+    /*? This is going  to give a box that is 1.5 times bigger than the original one!  */
+}
+
+/*? To show more perspective, I added perspective property to the parent element!  */
+.outline-box3 {
+    perspective: 50px;
+    /** If the value is smaller, it will look like it's more closer ot you!  */
+}
+.box3 {
+    /*! Rotate  */
+    /* transform: rotateX(45deg);  */
+    /* transform: rotateY(45deg); */
+    transform: rotate(45deg);
+    /*? transform: rotateZ('deg') will have the same result!  */
+}
+
+.box4 {
+    /*! Skew */
+    /* transform: skewX(15deg); */
+    /* transform: skewY(15deg);  */
+    transform: skew(30deg, 30deg);
+}

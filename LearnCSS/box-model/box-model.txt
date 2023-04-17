@@ -1,0 +1,143 @@
+What is box model?
+Box model determines how big the contents are!
+There are 4 parts in box model!
+Order from inside to outside: 
+1. content
+2. padding
+3. border
+4. margin
+
+HOW TO SEE BOX MODEL?
+Go into your browser or anything!
+Then, right click in there.
+After that, Click inspect (all the way at the bottom)
+Next, use click computed in there (right next to styles)
+If you see a box with 4 layers you success!
+(color from outside to inside -> red, orange, green, blue)
+Take a look at how they look like.
+
+
+content - Where all the texts or other things go in. You can use width and height property to content
+padding - This determines how much space is between content to a border or margin
+border - border can have a lot of properties. There are be none, solid, dotted, etc.
+margin - This is what determines how much space is between one element to another
+
+content:
+Use width and height to determine the size of an element!
+HOWEVER, width and height property will not work with inline level element!
+To do that, change the display to inline-block! (display: inline-block)
+(We are going to learn about display later!)
+h1 {
+    width: 30px;
+    height: 30px;
+}
+
+padding:
+(long form)
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 15px;
+}
+(short form)
+h2 {
+    padding: 10px 20px 10px 15px;
+    /* 1st value = padding-top */
+    /* 2nd value = padding-right */
+    /* 3rd value = padding-bottom */
+    /* 4th value = padding-left */
+    /* It's going clock wise!*/
+}
+
+(If top & bottom is different, but right & left is the same)
+h2 {
+    padding: 20px 10px 15px;
+    /* 1st value = padding-top */
+    /* 2nd value = padding-right & padding-left */
+    /* 3rd value = padding-bottom */
+}
+
+(If they top & bottom and right & left is the same)
+h2 {
+    padding: 10px 10px;
+    /* 1st value = padding-top & padding-bottom */
+    /* 2nd value = padding-right & padding-left */
+}
+
+(If all of them are the same (square))
+h2 {
+    padding: 10px;
+    /* All of them are now have 10px */
+}
+
+border:
+There are many types of borders!
+List:
+• none - lowest priority (EX: if border is collapsed the border will still be shown)
+• hidden - highest priority (EX: even though border is collapsed, it will not going to be shown)
+• solid - solid line (_______)
+• dotted - dotted line (• • • • • •)
+• dashed - dashed line (_ _ _ _ _)
+• double - 2 lines (=====)
+• groove - carved appearance (opposite of ridge) 
+• ridge - extruded appearance (opposite of groove)
+• inset - embedded appearance (opposite of outset)
+• outset - embossed appearance (opposite of inset)
+
+There are many properties!
+• border-top-style
+• border-right-style
+• border-bottom-style
+• border-left-style
+
+We normally use border property
+EX:
+
+h2 {
+    border: 1px solid black;
+    /* This is going to give you 1 pixel of a straight line that has a color of black!  */
+}
+
+The first value in border represents how thick the border is!
+You can also use keywords for that. EX: thick, thin
+the second value is the border style!
+the third value is the color of the border!
+
+There is a property called border-radius!
+This property will determine how round the vertex is!
+If the value is 50%, it will be a full circle
+
+EX: 
+h2 {
+    border: 1px solid black;
+    border-radius: 50%;
+    /* It's a round circle */
+}
+
+margin:
+
+This almost the same as padding!
+just change the padding -> margin
+
+EX:
+h2 {
+    margin: 10px 10px 10px 10px;
+    /* top, right, bottom, left */
+}
+
+h2 {
+    margin: 10px 10px 10px;
+    /* top, right & left, bottom */
+}
+
+h2 {
+    margin: 10px 10px; 
+    /* top & bottom, right & left */
+}
+
+h2 {
+    margin: 10px;
+    /* top & bottom & right & left */
+}
+

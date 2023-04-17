@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced-Selector</title>
+    <link rel="stylesheet" href="advancedSelector.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Pseudo Class</legend>
+            <div>
+                <a href="https://www.google.com">Google</a>
+                <a href="https://www.youtube.com/">YouTube</a>
+                <a href="#">This page</a>
+            </div>
+    </fieldset>
+    <fieldset>
+        <legend>Focus, Before, After</legend>
+        <div class="field">
+            <label class="required" for="name">Name</label>
+            <input type="text" id="name" placeholder="Write your name">
+        </div>
+        <div class="field">
+            <label class="required2" for="age">Age</label>
+            <input type="number" id="age" placeholder="Write your age">
+        </div>
+        <button data-tooltip="Click this button to submit">Submit</button>
+    </fieldset>
+    <fieldset>
+        <legend>nth-child(), not()</legend>
+        <ul>
+            <li>1content</li>
+            <li>2content</li>
+            <li class="target">3content</li>
+            <li>4content</li>
+            <li class="target">5content</li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend>first-letter, first-line, section</legend>
+        <div>
+            <p class="letter">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quod quas officiis fugiat facilis nemo, dolores voluptas aliquam odit exercitationem itaque totam quaerat deserunt ipsum cum, dolorem velit aspernatur explicabo.
+                Nisi earum animi, veniam deserunt modi, blanditiis molestiae saepe nesciunt itaque dolorum officiis velit illum at ea quae reprehenderit fugiat sed magni sunt vel alias incidunt, veritatis labore. Vel, facilis.
+                <!--? Random text using lorem (VSC)  -->
+            </p>
+            <p class="line">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ratione modi illum ad, reprehenderit odio vitae sint laboriosam nulla dolore, commodi, deleniti debitis? Libero fugiat iusto facilis officia adipisci at?
+                Saepe cupiditate sequi consequuntur cumque fugit, adipisci sed non cum facilis incidunt. Fugiat quam cupiditate animi. Eveniet nam temporibus quo deserunt, veniam autem itaque unde ex ea? Reprehenderit, pariatur labore.
+            </p>
+        </div>
+    </fieldset>
+</body>
+</html>

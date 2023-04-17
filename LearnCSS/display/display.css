@@ -1,0 +1,53 @@
+/*! DISPLAY!  */
+/*? This will determine how the HTML elements will be displayed in your web page.  */
+/** 4 common display values:
+• none - This is going let the use not able to see the HTML element
+• block - you can change the width and height (unlike inline). If you display an element as block, it will be a block level element
+• inline - you can't change the width and height. If you display an element as inline, it will be a inline level element
+• inline-block - This display the element as inline level, but this functions as block! You can change the width and height of the element when you display them as inline-block
+*/
+
+div, h2 {
+    border: 1px solid black;
+    /* width: 100px;
+    height: 100px; */
+    /** This element is going to get bigger!  */
+    
+}
+
+span, a {
+    border: 1px solid blueviolet;
+    width: 100px;
+    height: 100px;
+    /** Nothing is going to change!  */
+}
+
+/*! Display Practice!  */
+
+main .none {
+    /* visibility: hidden; */
+    /*? This property is going to hide the element, but it will still take up the space!  */
+    display: none;
+    /*? It will not be shown in the web page!  */
+}
+
+main .inline {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    /** We can't change the width and height anymore!  */
+}
+
+main .block {
+    display: block;
+    width: 100px;
+    height: 100px;
+    /** Now we can change the width and height!  */
+}
+
+main .inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    /** We can change the width and height! However, it acts like an inline element in the webpage!  */
+}

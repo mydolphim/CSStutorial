@@ -1,0 +1,88 @@
+/*! Group Selector  */
+/*? Group Selector syntax is almost same as normal CSS syntax!  */
+/*? We just have to put , after one selector  */
+h1, h3, p {
+    text-align: center;
+}
+
+/*! Combinator Selector  */
+/*? There are 4 types of them!  */
+/**
+• Descendants Combinator
+• Child Combinator
+• Common Sibling Combinator
+• Adjacency Sibling Combinator
+*/
+
+/*! Descendants Combinator  */
+/*? syntax: */
+/* EX:
+div span {
+    background-color: aqua;
+}
+*/
+/*? This example will select all the span tags that are inside div tag  */
+/** USE:  */
+#about_me p {
+    color: blue;
+}
+/** You can see p tags that is only inside id of about_me is styled blue  */
+
+/*! Child Combinator  */
+/*? Syntax: */
+/*
+EX:
+ul > li {
+    text-align: center;
+}
+*/
+/*? This example will select li tags that are directly inside the ul tag  */
+ul > li {
+    color: purple;
+}
+/* You can see only li tags that is directly inside the ul tag will be styled purple! */
+/* If li tag is in different parent, it will not going to be included */
+
+/*! Common Sibling Combinator  */
+/*? What is Sibling?  */
+/* EX:
+<body>
+    <div>
+        <h1>Hello</h1>
+    </div>
+    <p>Hello</p>
+</body>
+*/
+/** In this code, div is a child of body! body, is a parent of div  */
+/** In this case, h1 is a child of div */
+/** However, p tag is not a child of div tag, but child of body tag! */
+/** div and p tag has same parents! Therefore, they are sibling!  */
+/*? Syntax: */
+/*
+EX:
+h1 ~ h2 {
+    color: red;
+}
+*/
+/** USE:  */
+section p {
+    text-align: left;
+}
+/* Don't worry about this code */
+code ~ span {
+    color: red;
+}
+/** This will only style to red color that is sibling of theirs! (finds all of them and get style them)  */
+
+/*! Adjacency Sibling Combinator */
+/*? Syntax:  */
+/*
+div + span {
+    background-color: blue;
+}
+*/
+/** USE: */
+p + span {
+    color: blue;
+}
+/** This will only style a tag that is directly under it (but it have to be sibling)  */

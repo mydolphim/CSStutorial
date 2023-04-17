@@ -1,0 +1,115 @@
+What is CSS?
+CSS - Cascading Style Sheet
+
+Cascading Meaning!
+It means it flows like a water fall! 
+So CSS means falling of styles from the most important ones to less important ones
+
+What does CSS do?
+CSS can make your website pretty!
+It might be annoying when you are just getting started, but when you get comfortable, you will be able make some pretty websites
+
+CSS Syntax!
+--Example--
+h1 {
+    color: red;
+}
+--------------
+This whole this is called a rulesets
+
+In this example, h1 is a selector!
+It will select which element to style!
+However, this will make every h1 tag's content red!
+We don't want that!
+This is where class and id attribute from HTML comes in!
+To select class, you will use . before the class name!
+To select id, you will use # before the id name!
+Then, you are going to be using {}!
+Inside of {} you will be putting in property and value!
+In this example, color is a property, and red is a value!
+
+There are 3 ways of doing CSS!
+1. Inline Style Sheet
+2. Internal Style Sheet
+3. External Style Sheet
+
+What is Inline Style Sheet?
+Inline Style Sheet is when you are using style attribute!
+--Example--
+<h1 style="color: red">Hello I'm Dolphin</h1>
+-------------------------------------------
+This is going to change the color of h1 tag!
+
+What is Internal Style Sheet?
+Internal Style Sheet is when you are using CSS syntax inside of HTML file
+You are going to put CSS inside of <style></style> tag! <style> tag is going inside of <head> tag
+--Example--
+<head>
+    <style>
+        #hello {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="hello">Hello I'm Dolphin</h1>
+</body>
+----------------------------------------
+
+What is External Style Sheet?
+External Style Sheet is when you are using CSS inside of CSS file not in HTML file!
+You are going to link CSS file to HTML document
+To create a CSS file use filename.css (normally style.css)
+--Example of a file structure--
+project
+    ↳ index.html
+    ↳ style.css
+---------------------------------
+inside of <head> tag, put <link> and connect to CSS
+--Example--
+<link rel="stylesheet" href="style.css">
+--------------------------------------------
+After that if you make any CSS styles, it will be displayed on HTML file!
+
+--Example--
+(inside of HTML file)
+<h1 id="dolphin">Dolphin</h1>
+
+(inside of CSS file)
+#dolphin {
+    color: yellow;
+}
+-----------------------------
+Now the color of "Dolphin" will be yellow!
+
+CSS importance!
+If there are 2 or more different properties that goes to the same element,
+it will follow higher importance
+
+ORDER OF IMPORTANCE: 
+1. !important (use after the value! However, don't use this a lot!)
+2. Inline Style Sheet
+3. # (id)
+4. . (class)
+5. tag
+6. * (this means all)
+
+How to comment in CSS? 
+
+Unlike HTML, which uses <!--  -->
+CSS use /*  */ for comment!
+
+What are some CSS custom styles?
+There are 3 types of CSS custom styles
+
+1. Browser style (this is what browser supports (EX: font-style))
+2. Author style (this is what developers made as base style)
+3. User style (this is what users can customize! (EX: light mode OR dark mode))
+
+CSS custom Importance!
+1. User style !important
+2. Author style !important
+3. Author style
+4. User style
+5. Browser style

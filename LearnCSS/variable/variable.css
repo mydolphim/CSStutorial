@@ -1,0 +1,25 @@
+/*! variable  */
+/*? We use :root to create a variable set  */
+:root {
+    --text-color: #ffffff;
+    --background-color: #572eea;
+}
+
+* {
+    margin: 0;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-color);
+    /*? We use var(variable_name) to use the variable we made! */
+}
+
+h1 {
+    color: var(--text-color);
+}
+
+p {
+    color: var(--text-color);
+}

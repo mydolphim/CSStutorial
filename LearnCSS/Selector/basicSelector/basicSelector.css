@@ -1,0 +1,58 @@
+/*! Global Selector */
+/*? Global Selector will use *!  */
+/*? Global Selector is going to select every element!  */
+* {
+    margin: 0;
+    padding: 0;
+}
+/** This what normally people do with global selector  */
+/* You are going to learn about margin and padding later  */
+
+/*! Type Selector (Tag Selector)  */
+/*? It will select by the tags (tag names)  */
+/*? You just have to put the tag name!  */
+header {
+    color: blue;
+    /* color property can change the color of the TEXT COLOR (NOT BACKGROUND)  */
+    text-align: center;
+    /* text-align property can make all the texts go to the center of the document */
+}
+h2 {
+    color: greenyellow;
+    text-align: center;
+    background-color: antiquewhite;
+    /* background-color property will change the color of the background of that tag */
+}
+p {
+    color: aqua;
+    font-weight: 800;
+    /* font-weight property can determine how bold the text is  */
+    font-size: 24px;
+    /* font-size property can make the font size bigger or smaller! */
+    text-align: center;
+}
+
+/*! Class Selector  */
+/*? It will select by class! (more important than type selector) */
+/*? You will be using . before the class name to select class!  */
+.hello_world {
+    color: red;
+    background-color: aquamarine;
+}
+/* We selected the class name hello_world! (1st and 3rd heading) */
+
+/*! Id Selector  */
+/*? It will select by id names! (more important than class selector)  */
+/*? You will be using # before the id name!  */
+#first {
+    background-color: beige;
+}
+#second {
+    background-color: azure;
+}
+#third {
+    background-color: bisque;
+}
+#forth {
+    background-color: blanchedalmond;
+}

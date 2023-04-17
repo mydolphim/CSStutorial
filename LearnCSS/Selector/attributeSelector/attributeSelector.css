@@ -1,0 +1,54 @@
+a {
+    all: unset;
+    /* This is going to unset the browser style (blue underline part) */
+    cursor: pointer;
+    /* This is going to change the cursor into a pointer when it hovers over the element */
+}
+
+/*! Attribute Selector */
+/*? to use attribute selector, use [] and attribute name inside  */
+h3[class] { /** This is going to select h2 tags that has an attribute named class! */
+    color: blue;
+}
+/** Only the last h2 tag is going to be style  */
+
+/*! [attribute="value"] */
+/*? This is going to choose attribute that specifically contains that value  */
+a[href="https://github.com/"] {
+    color: green;
+}
+
+/*! [attribute*="value"]  */
+/*? This  is going to choose attribute that contains this keyword */
+a[href*="google"] {
+    color: red;
+}
+
+/*! [attribute^="value"] */
+/*? This is going to choose attribute that starts with this word */
+h1[id^="heading"] {
+    background-color: antiquewhite;
+    color: red;
+}
+
+/*! [attribute$="value"]*/
+/*? This is going to choose attribute that ends with this word  */
+h2[class$="google"] {
+    background-color: beige;
+}
+
+/*! [attribute~="value"]  */
+/*? This is going to choose attribute that contains this word! (basically same this as [attribute*="value"])  */
+/*? Difference with [attribute*="value"] is that this is going to find the word that is separated!
+But  [attribute*="value"] is just going to find a value that contains that word!
+(EX: facebook-hello):  [attribute*="value"] is going to find the word facebook, but [attribute~="value"] is not going to find it
+*/
+h2[class~="youtube"] {
+    background-color: azure;
+}
+
+/*! [attribute|="value"]  */
+/*? This is going to find the value that has specific value that you said or it's followed by an hyphen (-)  */
+h2[class|="google"] {
+    color: blueviolet;
+}

@@ -1,0 +1,96 @@
+/*! background-image property  */
+/*? we use url() after the property to find the image and display! */
+/** Please make sure to use smaller image or image that I provided!  */
+
+.image {
+    width: 900px;
+    height: 400px;
+    background-image: url(./backgroundIMG/img1.jpg);
+                        /* url(./backgroundIMG/img2.jpg),
+                        url(./backgroundIMG/img3.jpg); */
+/** We use multiple of these because if the browser doesn't support the first one, it will display the 2nd one  */
+border: 1px solid black;
+/*? You can see there are 4 images in the box!  */
+/** This is because the images are repeating to fit the size! */
+/** To prevent this, use background-repeat property  */
+
+/*! background-repeat  */
+/* background-repeat: repeat;  */
+/** Your default value!  */
+/* background-repeat: repeat-x;  */
+/** only repeats the x-axis  */
+/* background-repeat: repeat-y;  */
+/** only repeats the y-axis  */
+background-repeat: no-repeat; 
+/** There will be no repeat  */
+
+/*! background-position */
+/* background-position-x: right;  */
+/** Move the image to the right side! We can also use center and left (changing the x-axis of the image) */
+/* background-position-y: center;  */
+/** Move the image to the center! We can also use top and bottom! (changing the y-axis of the image!)  */
+/*? We can also just use background-position property!  */
+/* background-position: center;  */
+/** x-axis to center and y-axis to center  */
+/* background-position: right bottom;  */
+/** move the image to bottom right side of the container  */
+/*? Percentage value  */
+/* background-position: 50%;  */
+/** Center  */
+/* background-position: 10% 20% ;  */
+/** 10% from top to bottom! 20% from left to right!  */
+/*? Edge-offset!  */
+background-position: bottom 10px right 20px;
+/** move it to bottom! Then, 10px up! Next, move it right. Lastly, move 20px to the left  */
+}
+
+/*! background-attachment */
+.img2 {
+    width: 200px;
+    height: 350px;
+    background-image: url(./backgroundIMG/img2.jpg);
+    background-repeat: repeat-y;
+    border: 1px solid black;
+    display: inline-block;
+    overflow-y: scroll;
+    /*? We need scroll bar for background-attachment, so we will use overflow: scroll; property to make scroll bar with overflowed elements  */
+}
+
+.scroll {
+    width: 200px;
+    height: 1000px;
+}
+
+.attachment-scroll {
+    background-attachment: scroll;
+    /*? scroll is not going to be moving either with scroll inside the container or window scroll  */
+}
+
+.attachment-fixed {
+    background-attachment: fixed;
+    /*? fixed will not move with scrolling in the container! But, it will move with the scroll in window!  */
+}
+
+.attachment-local {
+    background-attachment: local;
+    /*? local will not move with the window scroll, but it will move with container scroll  */
+}
+
+/*! background-size property  */
+/*? This can change the size of the background-image */
+
+.background-size {
+    width: 300px;
+    height: 100px;
+    background-image: url(./backgroundIMG/img3.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    /*? This image is bigger than the HTML element!  */
+    /** We use background-size property to prevent the cutting of the image */
+    /* background-size: contain; */
+    /*? This value will make the images as biggest it can, but it can't be cut  */
+    background-size: cover; 
+    /*? This is similar to contain, but this wants to cover the whole area! It will cut itself (either row or column) to fit in the container  */
+    /* background-size: auto;  */
+    /*? Default value  */
+}

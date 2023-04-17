@@ -1,0 +1,48 @@
+/*! Float means rise! */
+/*? If a HTML element gets float property, it will be out of HTML flow and starts to move around  */
+/*? When we use float, texts and inline level elements will naturally cover that element  */
+/** Float values we use a lot!
+• none (default value)
+• left (float to the left)
+• right (float to the right)
+• inherit (get from the parent element)
+• initial (set as the default value)
+*/
+
+/*! Clear property!  */
+/*? This will finish the float!  */
+/*? This can stop the float of left and right value  */
+/** Clear values we use!
+• none (default value)
+• left (stop the left)
+• right (stop the right)
+• both (stop both left and right)
+•
+*/
+
+.container {
+    width: 1000px;
+    border: 1px solid gray;
+}
+
+img {
+    width: 400px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.float-right {
+    float: right;
+}
+
+p {
+    border: 1px solid blue;
+}
+
+.clear {
+    clear: both;
+}

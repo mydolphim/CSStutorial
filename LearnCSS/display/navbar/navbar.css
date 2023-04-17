@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    /** We are making them 0 because there are some default margin and padding value that's attached to the browser  */
+    text-decoration: none;
+    /** Get rid of the underline in a tag  */
+    list-style: none;
+    /** Remove the • in ul tag  */
+  }
+  nav {
+    background-color: #34495e;
+    width: 100%;
+    /** Full size of the screen  */
+    height: 80px;
+  }
+  nav li {
+    display: inline-block;
+    /** We can change their width and height using inline-block!  */
+    margin: 0 8px;
+    line-height: 80px;
+  }
+  nav a {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+  a.active,
+  a:hover {
+    /* :hover is for later!  */
+    border: 1px solid white;
+  }

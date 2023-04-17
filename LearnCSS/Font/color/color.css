@@ -1,0 +1,32 @@
+/*! COLORS!  */
+/*? There are 4 ways of coloring your texts and background!  */
+/**
+• Keywords! EX: red, blue, green
+• Hex numbers! EX: #edf7fb, #000000
+• rgb/rgba! (red, green, blue + alpha (transparency) combination) EX: rgb(237, 247, 251)
+• hsl/hsla (hue, saturation, lightness + alpha combination) EX: hsl(0.55, 0.64, 0.96)
+*/
+
+#keyword {
+    color: blue;
+    /** Example of an keyword! */
+}
+
+#hex {
+    color: #8c8ce0;
+}
+
+#rgb {
+    color: rgb(49, 49, 139);
+}
+
+#hsl {
+    color: hsl(240, 86%, 23%);
+}
+
+#rgba {
+    /* color: rgb(49, 49, 139, 0); */
+    /** It's transparent because if alpha is closer to 0, it will get more transparent!  */
+    color: rgba(49, 39, 139, 0.5);
+    /** It's half transparent!  */
+}

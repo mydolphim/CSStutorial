@@ -1,0 +1,66 @@
+/*! Transition!  */
+/*? What is transition?  */
+/** Transition is used to make the transformation or movement very smooth! */
+/** Transition Properties!
+• transition-property
+This will select which property to give transition
+    transition-property: <property1>, <property2>;
+        • all: it can select all the properties
+        • none: it does not select any properties!
+• transition-duration
+    This will configure how much seconds to execute the transition
+• transition-delay
+    This will delay the transition
+• transition-timing-function
+    This will set the speed of the transition
+        • ease: slow start, then fast, then end slow
+        • linear: the speed will be equal from start until the end
+        • ease-in: start slow, but over time, the speed increase
+        • ease-out: start fast, but over time, the speed decrease
+        • ease-in-out: slow start and slow end
+• transition
+This is the short form of these.
+EX:
+transition: all 2s ease-in-out;
+*/
+
+/*! Practice! */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.outline,
+.box {
+    width: 60px;
+    height: 60px;
+}
+
+.outline {
+    border: 3px solid yellow;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: blueviolet;
+}
+
+/*? transition  */
+.box1 {
+    transition: transform 1s ease-in-out;
+}
+.box1:hover {
+    transform: rotate(180deg);
+}
+
+.box2 {
+    transition: all 0.5s linear;
+}
+.box2:hover {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(180deg);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="intro.css">
+    <title>CSS</title>
+    <style>
+        #two {
+            color: blue;
+        }
+        h1 {
+            color: yellow;
+        }
+        /* This will not appear because it's less important than other ones */
+        h1 {
+            color: orange !important;
+        }
+        /* now all h1 tags will be orange because this the most important rulesets! */
+    </style>
+    <!-- This is an example of Internal Style Sheet! -->
+</head>
+<body>
+    <h1 id="one" style="color: red">1</h1>
+    <!-- This is an example of Inline Style Sheet -->
+    <h1 id="two">2</h1>
+    <h1 id="three">3</h1>
+</body>
+</html>

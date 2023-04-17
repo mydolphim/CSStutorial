@@ -1,0 +1,266 @@
+/*! Flex-box  */
+/*? What can flex box do?  */
+/** Flex box can position, sort, disperse the HTML Elements! */
+/** Flex box is very important concept because this can allow you do display items very easy and very b beautifully */
+
+/*? Why Flex-box?  */
+/** We use flex-box because this can allow you to position elements very flexible without complex calculations  */
+
+/*? What is Flex-box made of?  */
+/** Flex box is made of flex-item and flex-container  */
+/** flex-container is a parent of flex-item (You will declare flex-box here)  */
+/** flex-item is a child of flex-container  */
+
+/*! Flex-box declaration  */
+/*? We use display property for declaring flex-box  */
+/* EX:
+.flex-container {
+    display: flex;
+}
+*/
+/*? If you declare flex to an element, that element will be the flex-container (we do not have to declare flex for the flex-items)  */
+/** If the container is inline-level element (span), use inline-flex  */
+
+/*! Practice  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    border: 1px solid white;
+    background-color: green;
+    height: 50vh;
+    display: flex;
+    /*? Look at how it look like before declaring flex  */
+    /*? Then, look at what happened after declaring flex!  */
+}
+
+.flex-item {
+    color: white;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(218, 64, 218);
+    text-align: center;
+    border: 1px solid crimson;
+}
+
+/*! Flex-item Main axis!  */
+/*? We can change the main axis of flex-item by doing flex-direction in the flex-container */
+/** row: left → right */
+/** row-reverse: right → left */
+/** column: top → bottom */
+/** column-reverse: bottom → top */
+
+.flex-container {
+    /*? the default value is row! */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+}
+
+/*! Flex-container properties!  */
+/*? This will position or sort overall elements!  */
+/** List:
+• display - We declare flex-box
+• flex-direction - Used for changing the main axis
+• flex-wrap - This will sort the flex-items into may rows when the items are bigger than the container itself
+• flex-flow - This is the short cut of flex-direction and flex-wrap
+• justify-content
+• align-items
+• align-content
+*/
+
+/*! Flex-item properties! */
+/*? This is used to position or sort itself inside of the container  */
+/** List: 
+• flex
+• flex-grow
+• flex-shrink
+• flex-basis
+• order
+• align-self
+*/
+
+/*? It is very hard to explain these stuff, so let's see what happens when we use those  */
+/*? We are going to practice each one of them!  */
+
+/*! Flex-container practice  */
+
+/*? flex-wrap  */
+.flex-container {
+    flex-wrap: wrap;
+    /*? Default value is nowrap  */
+}
+
+/*? flex-flow  */
+.flex-container {
+    /* flex-flow: (direction) (wrap or nowrap)  */
+    flex-flow: row wrap;
+}
+
+/*? justify-content */
+/** This will sort items based on the main-axis  */
+/** List:  
+• flex-start: sort by main-axis
+• flex-end: sort by opposite of main-axis
+• center: sort in center
+• space-between: no space in the first and last item, but there will be some spacing to other ones
+• space-around: All items are spaced in equally
+*/
+
+.flex-container {
+    /* justify-content: flex-start; */
+    /** flex-start is the default value  */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+}
+
+/*? align-content  */
+/** sort items by the cross axis of flex-container  */
+/** List: 
+• stretch
+• flex-start
+• flex-end
+• center
+• space-between
+• space-around
+*/
+/** I will not going to explain, so look at what happens when you try by yourself! */
+
+.flex-container {
+    align-content: stretch;
+    /** Default value of flex-container  */
+    /* align-content: center; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+}
+
+/*? align-items  */
+/** List: 
+• stretch
+• flex-start
+• flex-end
+• center
+• space-between
+• space-around
+*/
+/*? In order to look at the difference between align-content and align-items make your website smaller, so you can see 3 lines of boxes */
+
+.flex-container {
+    align-items: stretch;
+    /** Default value of flex-container  */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: space-between; */
+    /* align-items: space-around; */
+}
+
+/*! Flex-item practice */
+
+/*? order  */
+/** This can give order for items!  */
+.item1 {
+    order: 4;
+}
+.item2 {
+    order: 3;
+}
+.item3 {
+    order: 2;
+}
+.item4 {
+    order: 1;
+}
+.item5 {
+    order: 0;
+    /** 0 will always be the first value  */
+}
+/*? Now it will sort from 5 to 1! Not 1 to 5  */
+
+/*? flex-grow  */
+/** This will set how big the items be to fit the container  */
+/* .item1 {
+    flex-grow: 1;
+}
+.item2 {
+    flex-grow: 1;
+}
+.item3 {
+    flex-grow: 2;
+    * You can see how item3 is much bigger than the other ones 
+}
+.item4 {
+    flex-grow: 1;
+}
+.item5 {
+    flex-grow: 1;
+} */
+/*? The items will grow to fit the size of the container  */
+/** If the value is bigger, that item will appear bigger!  */
+
+/*? flex-shrink  */
+/** This is the opposite of flex-grow!  */
+/** This sets how small the item will get when the browser shrinks!  */
+/* .item1 {
+    flex-shrink: 1;
+}
+.item2 {
+    flex-shrink: 1;
+}
+.item3 {
+    flex-shrink: 2;
+    * You can see how item3 is going to shrink to the same size of others
+}
+.item4 {
+    flex-shrink: 1;
+}
+.item5 {
+    flex-shrink: 1;
+} */
+
+/*? flex-basis  */
+/** This will set the width of the element! Use px or %! */
+/** Default value is auto  */
+/** Please make the flex-shrink and flex-grow a comment in order tp test this  */
+.item1 {
+    flex-basis: 10%;
+}
+.item2 {
+    flex-basis: 10%;
+}
+.item3 {
+    flex-basis: 10%;
+}
+.item4 {
+    flex-basis: 10%;
+}
+.item5 {
+    flex-basis: 10%;
+}
+
+/*? flex  */
+/** This is the short handed version of flex-grow, flex-shrink, and flex-basis  */
+/** Syntax: 
+.flex-item {
+    flex: none | auto | [ <flex-grow> <flex-shrink>? || <flex-basis> ];
+}
+*/
+/** EX:  
+.flex-item {
+    flex: 2 2 auto;
+}
+*/
+
+/*? align-self  */
+/** This is very similar to align-items, but it will only align itself  */
+.item1 {
+    align-self: center;
+}

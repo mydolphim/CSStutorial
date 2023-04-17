@@ -1,0 +1,134 @@
+CSS Units are very important when you are working with CSS!
+Especially with responsive website! (You are going to learn what that is later!)
+
+There are few units in CSS!
+Let's take a look at them!
+
+-----Units That We mostly use!------
+• px (pixel)
+• em 
+• ex
+• rem
+• ch
+• lh
+• vw (viewport width)
+• vh (viewport height)
+• vmin
+• vmax
+• %
+----------------
+There are 2 types of units!
+Absolute and Relative!
+--Absolute Units--
+• cm (centimeter) 
+• mm (millimeter)
+• Q (quarter meter)
+• in (inches)
+• pc (picas)
+• pt (points)
+-We don't use these except for pixel-
+• px (pixels)
+------------------
+
+--Relative Units--
+(ALL of them that was up in Units That We mostly use! except fot px )
+------------------
+In Relative Units, we mostly use em, rem, vw, vh, and %
+
+--Pixel (absolute)--
+Even though we use px a lot, there are some problems with it!
+Since this is an absolute value, it will never change!
+When your website is resized, it will not change it's size at all!
+Because this is happening, we don't use this a lot except when some values need absolute size that have to stay the same!
+
+--EM-
+This is relative to the font size of the parent, in the case of typographical properties like font-size, and font size of the element itself, in the case of other properties like width
+--Example--
+If we said 
+body {
+    font-size: 16px
+}
+(Default value of body tag is 16px)
+Now 1em == 16px 
+-----------
+--Example2--
+(HTML)
+<body>
+    <div class="parent">
+        Parent
+        <div class="child">Child</div>
+    </div>
+</body>
+(CSS)
+.parent {
+    font-size: 8em;
+}
+/* 16px*8 = 128px! So this will have font size of 128px */
+.child {
+    font size: 0.5em;
+}
+/*Now the parent tag has a font-size of 128px!*/
+/* 128px * 0.5 = 64px! So this will be 64px!*/
+
+--REM--
+This is relative to font size of the root element (html/body tag)
+This is very similar to em, but it's little bit different!
+em will multiply with the parent's font size!
+However, rem will always stay the same with body's font size!
+--Example--
+(HTML)
+<body>
+    <div class="parent">
+        Parent
+        <div class="child">Child</div>
+    </div>
+</body>
+(CSS)
+.parent {
+    font-size: 8rem;
+}
+/* 16px * 8 = 128px! So this will have font size of 128px */
+.child {
+    font size: 0.5rem;
+}
+/*Now the parent tag has a font-size of 128px!*/
+/* 16px * 0.5 = 8px! So this will be 8px!*/
+
+--EX--
+This is relative to x-height of the element's font.
+(We don't use this a lot, maybe never!)
+This varies with the font-family you are using!
+
+--CH--
+This is relative to the advanced measure (width) of the glyph "0" of the element's font.
+(We don't use this a lot, maybe never!)
+This also varies with the font-family
+
+--LH--
+This is relative to line height of the element
+(don't use this because many of the browsers don't support this yet!)
+
+--VW--
+This is relative to 1% of the viewport's width
+100vw = 100% of width of  the website
+50vw = 50% of width of the website
+
+--VH--
+This is relative to 1% of the viewport's height
+Similar to vw, if you are using 100vh, it 100% of height of the website
+
+--VMIN--
+1% of the viewport's smaller dimension
+If vw = 50vw and vh = 50vh,
+vh's value is greater!
+This will only going to take vh
+
+--VMAX--
+1% of the viewport's larger dimension
+On the other hand, This will take vw!
+
+--%--
+relative to the parent element
+You can replace em with %
+1em = 100%
+0.5em = 50%

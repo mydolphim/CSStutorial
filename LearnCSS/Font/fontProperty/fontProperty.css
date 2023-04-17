@@ -1,0 +1,73 @@
+/*! Font Properties! */
+/** List of major font properties 
+• font-family: This is used for changing the styles of font
+• font-size: This determines the size of the text!
+• font-style: This is used to display the text as italic!
+• font-weight: This determines how bold the text is
+• font-variant: This changes lower-case letters into upper-case
+*/
+
+/*! font-family  */
+body {
+    font-family:'Times New Roman', Times, serif;
+    /*? What are these commas? If the browser doesn't support the first font, it will automatically be changed to the second font that is after the comma!  */
+}
+
+/*! font-size  */
+.title {
+    font-size: 30px;
+}
+
+.content {
+    font-size: 20px;
+}
+
+/*! font-style  */
+.font-italic {
+    font-style: italic;
+}
+
+/*! font-weight  */
+.font-weight-bold {
+    font-weight: bold;
+}
+/*? We can choose font-weight with keywords!  */
+/** EX:
+• bold
+• bolder
+• lighter
+*/
+
+.font-weight-300 {
+    font-weight: 300;
+}
+/*? Also, we can do this by numbers!  */
+
+/*! font-variant  */
+.font-variant {
+    font-variant: small-caps;
+    /*? This property will make lower case letters into small uppercase  */
+
+}
+
+/*! What is a WEB-FONT? and how do we use it */
+/*? web-font doesn't have to be downloaded in your computer!*/
+/*? We are downloading a font file from a online server  */
+/** There are 2 ways!  */
+/*
+• <link>
+• @import
+*/
+
+/** We are going to be using @import!  */
+/*? Normally put @import at the top of your CSS file!  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/** This is how you import a text style!  */
+
+/*? How do I use the font? */
+/** Google font will give you how to use the font-family  */
+
+.web-font {
+    font-family: 'Roboto', sans-serif;
+}

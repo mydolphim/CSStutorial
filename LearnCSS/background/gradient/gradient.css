@@ -1,0 +1,56 @@
+/*! linear-gradient  */
+
+.linear-gradient {
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.g1 {
+    /*? to use linear-gradient(), use background property! */
+    background: linear-gradient(red, blue);
+    /*? This will make a gradient from top to bottom! RED -> BLUE  */
+    /** You can put any values that we use for colors!  */
+    /** Such as keywords, hex numbers, rgb, hsl, etc. */
+}
+
+.g2 {
+    /*? We can also change the direction it's going!  */
+    background: linear-gradient(to right, yellow, green);
+    /** Use to before the direction! It can be left, right, bottom, top  */
+    /** We can also mix them! EX: to top right  */
+}
+
+.g3 {
+    /*? We can also specify how much degrees it will be rotated  */
+    background: linear-gradient(45deg, #bed5ff, rgb(57, 0, 148));
+    /** put a number (how much degrees), then put deg  */
+}
+
+.g4 {
+    /* Let's use liner-gradient! */
+    background: linear-gradient(60deg, rgb(153, 153, 248) 25%, rgb(132, 132, 248) 25%, rgb(66, 66, 252) 25%, rgb(1, 1, 253) 25%);
+    /*? We decide how much that color will take up!  */
+    /** Use % right after the color value  */
+    /** This will look very weird!  */
+}
+
+/*! radial-gradient()  */
+
+.radial-gradient {
+    width: 500px;
+    height: 200px;
+    border: 1px solid blue;
+}
+
+.r1 {
+    background: radial-gradient(white, yellow);
+    /** White is going to be at the center! Yellow will be at the edges  */
+}
+
+.r2 {
+    /*? We can also choose where to start the circle!  */
+    background: radial-gradient(circle at 10% 50%, white, cornflowerblue);
+    /** We use circle at  */
+    /*? The first value will be the x-axis! The second value will be the y-axis  */
+}

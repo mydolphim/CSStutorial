@@ -1,0 +1,137 @@
+/*! Pseudo Class & Element  */
+/*? A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element  */
+/** These are some we pseudo class that we use a lot!
+• :link - A link (use for <a> tag) that you didn't visit yet from the web page!
+• :visited - A link that you have visited from your web page
+• :active - This is what user activated! Like buttons!
+• :hover - This is when user's mouse is on an element
+• :focus - This is when something was clicked in input element, so the user can type in something
+• :nth-child() - We can choose a specific element that has same tag and it's that tag's sibling 
+• :not(selector) - not(selector) - We can remove the selection
+*/
+
+a {
+    font-size: 30px;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: orange;
+}
+a:hover {
+    color: blueviolet;
+    font-weight: 600;
+    text-shadow: 0 0 10px rgb(147, 99, 192);
+}
+fieldset:hover {
+    background-color: lightgray;
+    box-shadow: 0 0 10px grey;
+}
+
+.field {
+    margin-bottom: 10px;
+}
+input:focus {
+    outline: none;
+    /** This is going to remove the outline style that browser has as it's default value  */
+    border: 3px solid tomato;
+    background-color: coral;
+    color: bisque;
+    box-shadow: 0 0 10px orangered;
+}
+
+input:focus::placeholder {
+    color: bisque;
+    /*? This is going to change the color of the place holder, when it's focused  */
+}
+
+fieldset:nth-child(3) {
+    background-color: darkgray;
+    /*? This is going to choose the 3rd fieldset element  */
+}
+li {
+    font-size: 20px;
+}
+li:nth-child(1) {
+    /*? This is going to select the 1st child that is li!  */
+    background-color: lightyellow;
+}
+li:nth-child(1):hover {
+    box-shadow: 0 0 10px yellow;
+    /*? this can select the 1st li element that is hovered  */
+}
+li:nth-child(even) {
+    /*? This can choose the elements that are even numbers! (2, 4, 6, etc.)  */
+    background-color: azure;
+}
+li:nth-child(even):hover {
+    box-shadow: 0 0 10px aquamarine;
+}
+li:not(.target) {
+    /*? This is going to choose all the li tags except for li tags that has a class name of target  */
+    box-shadow: 0 0 5px gainsboro;
+    font-size: 30px;
+}
+
+/*! Pseudo-elements  */
+/*? This is used to select a specific part of an HTML element! */
+/** Frequently used:
+• ::first-letter - getting the first letter in the text tag! However, we can only use this on block-level element
+• ::first-line - it only gets the first line of an element. (Only on block-level element)
+• ::before - This is used to insert another string before the element
+• ::after - This is used to insert another string after the element
+• ::selection - This will only select parts that user selected (highlights)
+*/
+
+.required::before {
+    content: "*";
+    /** We use content property to add a new text!  */
+    /*? This is going to make a text with content: "*" before the "Name" in label  */
+    /** You will understand when you see and practice by yourself  */
+    margin-right: 3px;
+    color: red;
+    font-size: 18px;
+}
+.required2::after {
+    content: "*";
+    /*? This will be after the text: "Age" */
+    margin-left: 3px;
+    color: red;
+    font-size: 18px;
+}
+
+/*? We are going to make a tool-tip! This can be little hard, but don't worry!  */
+[data-tooltip] {
+    position: relative;
+}
+[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    /*? This will going to get the data that's in the attribute  */
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    left: 65px;
+    width: 200px;
+    background-color: ivory;
+    border-radius: 10px;
+    color: crimson;
+    text-shadow: 2px 2px 5px rgb(138, 21, 44);
+    box-shadow: 0 0 20px deepskyblue,
+                0 0 30px blue,
+                inset 0 0 10px paleturquoise;
+    
+}
+.letter::first-letter {
+    font-size: 60px;
+    color: blue;
+}
+.line::first-line {
+    font-size: 20px;
+    color: blueviolet;
+    background: white;
+}
+p::selection {
+    background: black;
+    color: whitesmoke;
+}

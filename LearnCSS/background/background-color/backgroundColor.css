@@ -1,0 +1,22 @@
+body {
+    background-color: beige;
+}
+
+/*! background-color property!  */
+/*? Like color, we can use keyword, hex, and RGB colors!  */
+/*? We can also use some special keywords and global value (inherit)  */
+/** If you understand color property, this should be very easy  */
+.color {
+    /*? Keyword */
+    background-color: cornflowerblue;
+    /*? Hex  */
+    /* background-color: #6495ed; */
+    /*? RGB  */
+    /* background-color: rgb(100, 149, 237); */
+    /*? Special keyword  */
+    /* background-color: currentColor; */
+    /*? global value (inherit)  */
+    /* background-color: inherit; */
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,81 @@
+div {
+    background-color: azure;
+    /*! content */
+    width: 100px;
+    height: 100px;
+    /*! padding  */
+    padding: 20px;
+    /*! border  */
+    border: 10px inset blueviolet;
+    /*! margin  */
+    margin: 20px;
+}
+
+span {
+    border: 1px solid blue;
+    /* width: 50px;
+    height: 50px; */
+    /*? Doesn't work!  */
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    /*? It works because it's inline-block now!  */
+}
+
+.square,
+.round-square,
+.circle {
+    border: 2px solid black;
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.round-square {
+    border-radius: 20px;
+    /** The vertex is now little be rounder  */
+}
+
+.circle {
+    border-radius: 50%;
+    /** This is a full circle now!  */
+}
+
+/*! BOX-SIZING?  */
+/*? What is box-sizing?  */
+/** This determines the way of measuring the box!  */
+/*? There are 2 values of box-sizing  */
+/* List:
+• content-box
+• border-box
+*/
+
+/*! Content-box! */
+/*? This is a default value!  */
+.content-box {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid black;
+    margin: 40px;
+    box-sizing: content-box;
+}
+/** ALL of these adds up!  */
+/*? content + padding + border  */
+/** 130px! */
+
+/*! Border-box! */
+
+.border-box {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid black;
+    margin: 40px;
+    box-sizing: border-box;
+}
+/** They all add up, but ends up with the value we gave (100px)  */
+/*? content + right-padding + left-padding + left-border + right-border  */
+/** Total of 100px  */

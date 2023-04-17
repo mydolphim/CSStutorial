@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    color: white;
+    background-color: #293039;
+}
+
+div {
+    border: 1px solid white;
+    margin: 32px;
+}
+
+/*! EM  */
+.em-parent {
+    font-size: 8em;
+    /* 128px  */
+}
+.em-child {
+    font-size: 0.5em;
+    /* 64px */
+}
+
+/*! REM */
+.rem-parent {
+    font-size: 8rem;
+    /* 128px */
+}
+.rem-child {
+    font-size: 0.5rem;
+    /* 8px */
+}
+
+/*! ANOTHER EX  */
+#another_ex {
+    font-size: 20px;
+}
+.px {
+    font-size: 20px;
+}
+
+.em {
+    font-size: 3em;
+    /* 60px */
+}
+
+.rem {
+    font-size: 3rem;
+    /* 48px */
+}
+
+.rectangle.width {
+    background-color: yellow;
+    width: 20vw;
+    /*? 20% of the screen  */
+    height: 100px;
+}
+
+.rectangle.height {
+    background-color: blue;
+    width: 200px;
+    height: 20vh;
+}

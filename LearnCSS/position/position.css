@@ -1,0 +1,91 @@
+/*! Position!  */
+/*? Position is how you position the HTML element  */
+/** 5 position values:
+• static - Go with flow in HTML document. It's the default value (don't get effected by top, bottom, left, right property)
+• relative - similar to static, but this get effected by top, bottom, left, and right property
+• absolute  - Does not go with flow in HTML document. It can be effected by top, bottom, left, and right property.
+• fixed - Does not go with flow in HTML document. However, this can be fixed in one place (always in the same place)!
+• sticky - This goes with flow in HTML document, but it will be fixed when we scroll down to that location we set the stick to
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*! Sectioning them  */
+main, section, article, div {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+section {
+    background-color: violet;
+}
+
+article {
+    background-color: cyan;
+}
+
+div {
+    background-color: white;
+}
+
+
+/*! Position!  */
+div.static {
+    position: static;
+    /** Nothing is going to change because static is the default value!  */
+}
+
+div.relative {
+    position: relative;
+    /** Nothing changes, but we can change it by using top, bottom, left, and right property  */
+    right: 10px;
+    /*? Move 20px from top to bottom  */
+}
+
+div.absolute {
+    position: absolute;
+    /** once it's absolute, it will be an inline level element now!  */
+    background-color: gray;
+    top: 0px;
+    left: 0px;
+    /*? It will be at the top because it will ignore all the containers  */
+    /*? However, if one of the container has position: relative, it will go to that container!  */
+}
+
+div.fixed {
+    position: fixed;
+    background-color: beige;
+}
+
+div.sticky {
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0px;
+    /** It will move with all the elements! But, when it's in 0px (viewport), it will stick there!  */
+}
+
+/*! z-index  */
+/*? This determines which element is at the top, or at the bottom  */
+/** Only works with position: relative, absolute, or fixed  */
+
+div.z-index-absolute1 {
+    position: absolute;
+    background-color: blueviolet;
+    z-index: 1;
+    /*? If the z-index's value is higher, it means it's more at the top  */
+    /** Now the blueviolet color will show up!  */
+}
+
+div.z-index-absolute2 {
+    position: absolute;
+    background-color: pink;
+}

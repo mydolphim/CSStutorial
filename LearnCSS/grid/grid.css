@@ -1,0 +1,66 @@
+/*! Grid  */
+/*? Just like flex-box we are going to declare grid by starting with display: grid;  */
+/*? Now the container is called grid-container  */
+/*? However, the children are called grid-cells  */
+/** We can choose how many cells there is by grid-template-columns || rows  */
+/** Also we can use grid-template-areas  */
+/** We can choose the gap by doing grid-gap or grid-column-gap and grid-row-gap  */
+/*? Just like flex-box, we can do grid-column || row-start and grid-column || row-end!  */
+
+/*? Basic CSS  */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #181818;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .color1 {
+    background-color: #d7bee2;
+  }
+  .color2 {
+    background-color: #a9c7d8;
+  }
+  .color3 {
+    background-color: #c0df9f;
+  }
+  .color4 {
+    background-color: #f2e5a6;
+  }
+  .color5 {
+    background-color: #e89d9d;
+  }
+  
+/*! Practice Grid! */
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    /*? What is repeat function?  */
+    /** This we use the first argument, which is how many times to repeat  */
+    /** Then, there is the 2nd argument, which is what is repeating  */
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 5px;
+}
+
+/*! Practice Grid Cells */
+.item2 {
+    /* grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3; */
+    /*? Short hand form  */
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}

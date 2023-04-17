@@ -1,0 +1,57 @@
+.content {
+    border: 1px solid black;
+    /** We will be learning about border later  */
+}
+
+.text-center {
+    text-align: center;
+    /*? text-align property will only work with block level element!  */
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+    /** This is the default value!  */
+}
+
+.article {
+    /*? Give spacings between each lines!  */
+    line-height: 2rem;
+    /*? Give space between each word  */
+    word-spacing: 0.3rem;
+    /*? Give a space between each letter  */
+    letter-spacing: 2px;
+    /*? Indentation!  */
+    text-indent: 30px;
+}
+
+.transform-case {
+    text-transform: uppercase;
+    /** Lists: 
+    • capitalize (capitalize the first letter in that word)
+    • lowercase (make all the letters in the word into lowercase)
+    • uppercase (make all the letters in the word into uppercase)
+    */
+}
+
+.article > a {
+    text-decoration: none;
+    /*? This will remove all the decorations from the a tag (underline) */
+}
+
+/*! text-shadow  */
+
+.text-shadow {
+    text-shadow: 5px 5px 3px gray;
+    /** First value is the x-axis  */
+    /** Second value is the y-axis  */
+    /** Third value is how much the shadow is smeared  */
+}
+
+ul {
+    list-style: none;
+    /*? The dots that's in ul tag will all be gone!  */
+}

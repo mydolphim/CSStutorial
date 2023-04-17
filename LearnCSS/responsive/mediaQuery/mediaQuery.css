@@ -1,0 +1,56 @@
+/*! @media!  */
+/*? Remember this concept! Content is like water!  */
+/** What even container (device) the content it going in, it have to fit in there!  */
+/*? @media can allow people to have different CSS styling in different devices  */
+/*? However, we need something called breakpoint in order to give different styling in different devices!  */
+
+/** Syntax  */
+/* 
+@media [ only | not ] media type [and condition] and [and condition] {
+    CSS Styling
+}
+*/
+
+/*? Media Types:
+• all - Suitable for all devices
+• print - Intended for paged material and documents viewed on a screen in print preview mode 
+• screen - Intended primarily for screens
+• speech - Used for text to speech (tts)
+*/
+
+/*? Media Query condition  */
+/*
+• width - Specific width
+• min-width - viewport's minimum width
+• max-width - viewport's maximum width
+*/
+
+/*! Break Points!  */
+/*
+• Mobile - 320px ~ 480px
+• Tablet - 768px ~ 1024px
+• Desktop 1024px ~ 
+*/
+
+/** EX:  */
+/*
+@media screen and (min-width: 768px) and (max-width: 1439px)
+*/
+
+@media (min-width: 1000px) and (max-width: 1500px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 999px) {
+    body {
+        background-color: coral;
+    }
+}
+
+@media print {
+    h1 {
+        font-size: 200px;
+    }
+}
