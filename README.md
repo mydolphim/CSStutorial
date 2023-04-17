@@ -61,27 +61,27 @@ If that doesn't work, you have to go read in MDN site! <br>
 18. I think now, you guys are ready for position property **VERY IMPORTANT** [position](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/position) <br>
     &nbsp; &nbsp; &nbsp; &nbsp;↳ [positionHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/position/position.html) <br>
     &nbsp; &nbsp; &nbsp; &nbsp;↳ [positionCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/position/position.css) <br>
-19. Let's have some fun with background! [background]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ We have a lot to cover in background! Get ready for it!
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [backgroundColor]() <br>
-        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [backgroundColorHTML]() <br>
-        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [backgroundColorCSS]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [backgroundIMG]() <br>
-        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [backgroundImgHTML]() <br>
-        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [backgroundImgCSS]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [gradient]() <br>
-        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [gradientHTML]() <br>
-        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [gradientCSS]() <br>
-20. I think we are ready for more advanced selectors! [advancedSelector]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [advancedSelectorHTML]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [advancedSelectorCSS]() <br>
-21. Let's learn about transform and transition! [transform-transition]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [transform]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [transformHTML]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [transformCSS]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [transition]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [transitionHTML]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [transitionCSS]() <br>
+19. Let's have some fun with background! [background](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/background) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ We have a lot to cover in background! Get ready for it! <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [backgroundColor](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/background/background-color) <br>
+        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [backgroundColorHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/background/background-color/backgroundColor.html) <br>
+        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [backgroundColorCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/background/background-color/backgroundColor.css) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [backgroundIMG](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/background/backgroundImg) <br>
+        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [backgroundImgHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/background/backgroundImg/backgroundImg.html) <br>
+        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [backgroundImgCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/background/backgroundImg/backgroundImg.css) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [gradient](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/background/gradient) <br>
+        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [gradientHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/background/gradient/gradient.html) <br>
+        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [gradientCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/background/gradient/gradient.css) <br>
+20. I think we are ready for more advanced selectors! [advancedSelector](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/advancedSelectors) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [advancedSelectorHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/advancedSelectors/advancedSelector.html) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [advancedSelectorCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/advancedSelectors/advancedSelector.css) <br>
+21. Let's learn about transform and transition! [transform-transition](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/transform-transition) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [transform](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/transform-transition/transform) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [transformHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/transform-transition/transform/transform.html) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [transformCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/transform-transition/transform/transform.css) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [transition](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/transform-transition/transition) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [transitionHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/transform-transition/transition/transition.html) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [transitionCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/transform-transition/transition/transition.css) <br>
 22. We are now on animation! [animation]() <br>
     &nbsp; &nbsp; &nbsp; &nbsp;↳ [animationHTML]() <br>
     &nbsp; &nbsp; &nbsp; &nbsp;↳ [animationCSS]() <br>
