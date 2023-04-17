@@ -122,3 +122,9 @@ If that doesn't work, you have to go read in MDN site! <br>
 
 # USEFUL DESIGN TOOLS! <br>
 - [ColorSpace](https://mycolor.space/)
+- [fontAwsome](https://fontawesome.com/)
+- [CSSgradient](https://cssgradient.io/)
+- [ShapeDiver](https://www.shapedivider.app/)
+- [SVG-generate](https://haikei.app/)
+- [coolBackgrounds](https://coolbackgrounds.io/)
+- [dribble](https://dribbble.com/)
