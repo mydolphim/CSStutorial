@@ -82,16 +82,16 @@ If that doesn't work, you have to go read in MDN site! <br>
     &nbsp; &nbsp; &nbsp; &nbsp;↳ [transition](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/transform-transition/transition) <br>
     &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [transitionHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/transform-transition/transition/transition.html) <br>
     &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [transitionCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/transform-transition/transition/transition.css) <br>
-22. We are now on animation! [animation]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [animationHTML]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [animationCSS]() <br>
-23. Let's practice animation withe making a loading bars [loadingAnimation]() <br>
-24. We are definitely ready for responsive website! [responsive]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [responsiveHTML]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [responsiveCSS]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [mediaQuery]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; ↳ [mediaQueryHTML]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; ↳ [mediaQueryCSS]() <br>
+22. We are now on animation! [animation](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/animation) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [animationHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/animation/animation.html) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [animationCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/animation/animation.css) <br>
+23. Let's practice animation withe making a loading bars [loadingAnimation](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/animation/loadingAnimation) <br>
+24. We are definitely ready for responsive website! [responsive](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/responsive) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [responsiveHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/responsive/responsive.html) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [responsiveCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/responsive/responsive.css) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [mediaQuery](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/responsive/mediaQuery) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; ↳ [mediaQueryHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/responsive/mediaQuery/mediaQuery.html) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; ↳ [mediaQueryCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/responsive/mediaQuery/mediaQuery.css) <br>
 25. We are almost there! It's time to look at flex box [flex-box]() <br>
     &nbsp; &nbsp; &nbsp; &nbsp;↳ [flex-boxHTML]() <br>
     &nbsp; &nbsp; &nbsp; &nbsp;↳ [flex-boxCSS]() <br>
