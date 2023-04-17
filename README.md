@@ -8,19 +8,19 @@ Make sure to understand and go to the next lesson! If you don't understand, plea
 If that doesn't work, you have to go read in MDN site! <br>
 
 # ORDERS
-1. Please read css.txt for brief introduction! [CssTXT]() <br>
-2. Go into intro file and look at the HTML file and the CSS file! [intro]()
-3. Go into LearnCSS [LearnCSS]() <br>
+1. Please read css.txt for brief introduction! [CssTXT](https://github.com/mydolphim/CSStutorial/blob/main/css.txt) <br>
+2. Go into intro file and look at the HTML file and the CSS file! [intro](https://github.com/mydolphim/CSStutorial/tree/main/intro)
+3. Go into LearnCSS [LearnCSS](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS) <br>
 /* Now It's Time for selector! */
-4. Go to Selector Folder! [Selector]()
+4. Go to Selector Folder! [Selector](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/Selector)
 5. Go into basic Selector Folder and look at HTML and CSS code and try to understand! <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [basicSelector]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [basicSelectorHTML]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [basicSelectorCSS]() <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [basicSelector](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/Selector/basicSelector) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [basicSelectorHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/Selector/basicSelector/basicSelector.html) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [basicSelectorCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/Selector/basicSelector/basicSelector.css) <br>
 6. Now, go into attribute Selector Folder! <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [attributeSelector]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [attributeSelectorHTML]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [attributeSelectorCSS]() <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [attributeSelector](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/Selector/attributeSelector) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [attributeSelectorHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/Selector/attributeSelector/attributeSelector.html) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [attributeSelectorCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/Selector/attributeSelector/attributeSelector.css) <br>
 7. Then, go to group-combinatorSelector Folder! <br>
     &nbsp; &nbsp; &nbsp; &nbsp;↳ [group-combinatorSelector]() <br>
     &nbsp; &nbsp; &nbsp; &nbsp;↳ [group-combinatorSelectorHTML]() <br>
