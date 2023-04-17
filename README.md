@@ -92,24 +92,22 @@ If that doesn't work, you have to go read in MDN site! <br>
     &nbsp; &nbsp; &nbsp; &nbsp;↳ [mediaQuery](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/responsive/mediaQuery) <br>
     &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; ↳ [mediaQueryHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/responsive/mediaQuery/mediaQuery.html) <br>
     &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; ↳ [mediaQueryCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/responsive/mediaQuery/mediaQuery.css) <br>
-25. We are almost there! It's time to look at flex box [flex-box]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [flex-boxHTML]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [flex-boxCSS]() <br>
-26. We have done flex-box! Now it's time for Grid! [grid]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [gridHTML]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [gridCSS]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [gridPractice]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [gridImageHTML]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;↳ [gridImageCSS]() <br>
+25. We are almost there! It's time to look at flex box [flex-box](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/flex-box) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [flex-boxHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/flex-box/flex-box.html) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [flex-boxCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/flex-box/flex-box.css) <br>
+26. We have done flex-box! Now it's time for Grid! [grid](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/grid) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [gridHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/grid/grid.html) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [gridCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/grid/grid.css) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [gridPractice](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/grid/grid-practice) <br>
     There is nota lot of explanations on grid! Please go ahead and practice in Grid Garden (Link in The bottom) <br>
-27. We are finally in the last Lesson! We are going to be talking about variables! (This is very EASY) [variable]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [variableHTML]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [variableCSS]() <br>
-28. Let's Make our final project! [project]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [projectHTML]() <br>
+27. We are finally in the last Lesson! We are going to be talking about variables! (This is very EASY) [variable](https://github.com/mydolphim/CSStutorial/tree/main/LearnCSS/variable) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [variableHTML](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/variable/variable.html) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [variableCSS](https://github.com/mydolphim/CSStutorial/blob/main/LearnCSS/variable/variable.css) <br>
+28. Let's Make our final project! [project](https://github.com/mydolphim/CSStutorial/tree/main/project) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [projectHTML](https://github.com/mydolphim/CSStutorial/blob/main/project/index.html) <br>
     **How to font awesome!** → [font-awesomeDocs](https://fontawesome.com/docs/web/setup/get-started) <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [projectCSS]() <br>
-    &nbsp; &nbsp; &nbsp; &nbsp;↳ [projectJS]() <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [projectCSS](https://github.com/mydolphim/CSStutorial/blob/main/project/style.css) <br>
+    &nbsp; &nbsp; &nbsp; &nbsp;↳ [projectJS](https://github.com/mydolphim/CSStutorial/blob/main/project/app.js) <br>
 
 
 
