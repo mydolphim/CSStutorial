@@ -1,5 +1,5 @@
 # CSS tutorial
-CSS can be annoying, but I hope you will get less annoyed it with this tutorial! <br>
+CSS can be annoying, but I am here to help you <br>
 If you didn't already with HTML tutorial, please write some code along with tutorial! <br>
 Only Way to see what's going on with CSS is to write some code! <br>
 Start with code that I provided! <br>
