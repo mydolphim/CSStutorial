@@ -1,11 +1,8 @@
 # CSS tutorial
 CSS can be annoying, but I am here to help you <br>
-If you didn't already with HTML tutorial, please write some code along with tutorial! <br>
-Only Way to see what's going on with CSS is to write some code! <br>
-Start with code that I provided! <br>
-Then, write some codes by yourself! <br>
-Make sure to understand and go to the next lesson! If you don't understand, please read it again and practice! <br>
-If that doesn't work, you have to go read in MDN site! <br>
+I **really** recommend learning HTML before CSS  <br>
+You should follow along by writing these codes in your code editor <br>
+Make sure to understand and go to the next lesson! <br>
 
 # ORDERS
 1. Please read css.txt for brief introduction! [CssTXT](https://github.com/mydolphim/CSStutorial/blob/main/css.txt) <br>
